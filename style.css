@@ -35,6 +35,9 @@
       cursor: pointer;
       position: relative;
     }
+summary::marker{
+   display: none;
+}
 
     details[open] summary::after {
       content: "▲";
