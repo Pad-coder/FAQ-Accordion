@@ -27,7 +27,7 @@
       border-radius: 6px;
       margin-bottom: 10px;
       padding: 10px 15px;
-      transition: all 0.5s ease;
+      transition:all 1s ease-in-out;
     }
 
     summary {
@@ -35,8 +35,9 @@
       cursor: pointer;
       position: relative;
     }
-summary::marker{
-   display: none;
+    
+   summary::marker {
+  content: none;
 }
 
     details[open] summary::after {
