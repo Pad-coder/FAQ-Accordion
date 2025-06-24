@@ -38,12 +38,14 @@
 
     details[open] summary::after {
       content: "▲";
+       color: rgb(0, 56, 209);
       position: absolute;
       right: 0;
     }
 
     summary::after {
       content: "▼";
+      color: rgb(3, 3, 3);
       position: absolute;
       right: 0;
     }
